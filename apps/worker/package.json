@@ -10,6 +10,9 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4"
+  },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241205.0",
     "wrangler": "^4.58.0"

@@ -23,6 +23,9 @@ pnpm format           # Prettier
 
 # Build
 pnpm build            # Build all workspaces
+
+# Supabase
+pnpm supabase:types   # Generate database types
 ```
 
 ## Architecture
@@ -42,6 +45,12 @@ This is a TypeScript monorepo using pnpm workspaces:
 - **packages/ui**: Shared UI components (shadcn/ui)
   - Import as `@workspace/ui/components/ui/button`
   - Contains shadcn components, hooks, and utilities
+
+- **packages/supabase**: Shared Supabase clients and types
+  - Browser client: `@workspace/supabase/client/browser`
+  - Server client: `@workspace/supabase/client/server`
+  - Middleware helper: `@workspace/supabase/middleware`
+  - Types: `@workspace/supabase/types`
 
 - **e2e/**: Playwright tests against the web app
 
