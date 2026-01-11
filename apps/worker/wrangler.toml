@@ -1,4 +1,4 @@
-name = "next-edge-stack-worker"
+name = "next-edge-supabase-stack-worker"
 main = "src/index.ts"
 compatibility_date = "2024-12-05"
 

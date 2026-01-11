@@ -1,5 +1,5 @@
 {
-  "name": "next-edge-stack",
+  "name": "next-edge-supabase-stack",
   "private": true,
   "type": "module",
   "scripts": {
